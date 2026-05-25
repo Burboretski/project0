@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <section class="header-section">
+    <div class="header">
+        <div class="logo">
+            <img src="/images/header-images/logoimg.png" alt="Logo" class="logo-img">
+
+            <div class="logo-text">
+                <img src="/images/header-images/logo.png" alt="Poland24" class="logo-name">
+                <p class="active"><strong>FAST DELIVERY</strong></p>
+            </div>
+        </div>
+        <div class="social-block">
+            <p>Our social media</p>
+            <div class="social-icons">
+                <a href="#">
+                    <img src="/images/header-images/014-viber.png" alt="Viber">
+                </a>
+                <a href="#">
+                    <img src="/images/header-images/017-telegram.png" alt="Telegram">
+                </a>
+            </div>
+            <a href="mailto:info@poland24.com.ua" class="email">
+                <img src="/images/header-images/letter.png" alt="Email">
+                info@poland24.com.ua
+            </a>
+        </div>
+        <button class="burger">
+             ☰
+        </button>
+        <div class="currency">
+            <a href="#">zł 00,00</a>
+            <a href="#">€ 00,00</a>
+        </div>
+        <button id="open-order-btn" class="order-btn">
+            Order
+        </button>
+        <button id="open-register-btn" class="reg-btn">
+            Login / Registration
+        </button>
+        <div class="language">
+            <img src="/images/header-images/ukraine.png" alt="Ukraine">
+            <p>UA</p>
+        </div>
+    </div>
+    <div class="lower-header">
+        <div>
+            <a href="#">About us</a>
+            <a href="#">Shop list</a>
+            <a href="#">Feedacks</a>
+            <a href="#">Question-answer</a>
+            <a href="#">Calculator</a>
+            <a href="#">Contacts</a>
+            <button type="button" class="help-button">
+                <img src="/images/header-images/help_outline.png">
+                <p>Help in searching product</p>
+            </button>
+        </div>
+    </div>
+    </section>
+    <section class="store-section">
+        <div class="lil-spacer"></div>
+        <div class="store-nav">
+            <div>
+                <a href="/pages/index.html">Main</a>
+                <img src="/images/store-images/down.png" alt="">
+            </div>
+            <h4>Store catalog</h4>
+        </div>
+        <div class="store-content">
+            <div class="cat-header">
+                <div class="red-line">
+                </div>
+                <h1>Store catalog</h1>
+            </div>
+            <div class="stores-ui">
+                <div class="filter">
+                    <div class="filter-section-group">
+                        <div class="filter-opt-header">
+                            <h4>Select by country:</h4>
+                            <button type="button" class="toggle-filter-btn">
+                                <img src="/images/store-images/remove.png" alt="toggle">
+                            </button>
+                        </div>
+                        <div class="filter-list-wrapper">
+                            <div class="filter-item">
+                                <input type="checkbox" id="country-1" class="custom-checkbox">
+                                <label for="country-1">Poland</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox" id="country-2" class="custom-checkbox">
+                                <label for="country-2">Germany</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox" id="country-3" class="custom-checkbox">
+                                <label for="country-3">France</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox" id="country-4" class="custom-checkbox">
+                                <label for="country-4">Italy</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox" id="country-5" class="custom-checkbox">
+                                <label for="country-5">Spain</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox" id="country-6" class="custom-checkbox">
+                                <label for="country-6">Category</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-section-group">
+                        <div class="filter-opt-header">
+                            <h4>Select by category</h4>
+                            <button type="button" class="toggle-filter-btn">
+                                <img src="/images/store-images/remove.png" alt="toggle">
+                            </button>
+                        </div>
+                        <div class="filter-list-wrapper">
+                            <div class="filter-item">
+                                <input type="checkbox" id="cat-1" class="custom-checkbox">
+                                <label for="cat-1">Electronics & Appliances</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox" id="cat-2" class="custom-checkbox">
+                                <label for="cat-2">Clothing & Apparel</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox" id="cat-3" class="custom-checkbox">
+                                <label for="cat-3">Auto & Moto Goods</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox" id="cat-4" class="custom-checkbox">
+                                <label for="cat-4">Kids & Toys</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox" id="cat-5" class="custom-checkbox">
+                                <label for="cat-5">Health & Beauty</label>
+                            </div>
+                            <div class="filter-item">
+                                <input type="checkbox" id="cat-6" class="custom-checkbox">
+                                <label for="cat-6">Category</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-main-content">
+                    <div class="tags-panel">
+                        <div class="tags-container">
+                            <div class="tag-badge">Poland <span class="tag-close">✕</span></div>
+                            <div class="tag-badge">Spain <span class="tag-close">✕</span></div>
+                            <div class="tag-badge">Electronics & Appliances <span class="tag-close">✕</span></div>
+                            <div class="tag-badge">Clothing & Apparel <span class="tag-close">✕</span></div>
+                            <div class="tag-badge">Auto & Moto Goods <span class="tag-close">✕</span></div>
+                        </div>
+                        <button type="button" class="clear-filter-btn">
+                            <img src="/images/store-images/delete-one.png" alt="clear" class="clear-icon"> 
+                            Clear filter
+                        </button>
+                    </div>
+                    <div class="brands-grid">
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (1).png" alt="eBay" class="brand-logo">
+                            </div>
+                            <h3 class="brand-name">eBay</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (2).png">
+                            </div>
+                            <h3 class="brand-name">YOOX</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (3).png">
+                            </div>
+                            <h3 class="brand-name">KITCHEN AID</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (4).png">
+                            </div>
+                            <h3 class="brand-name">ZARA</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon.png">
+                            </div>
+                            <h3 class="brand-name">Amazon</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (1).png" alt="eBay" class="brand-logo">
+                            </div>
+                            <h3 class="brand-name">eBay</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (2).png">
+                            </div>
+                            <h3 class="brand-name">YOOX</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (3).png">
+                            </div>
+                            <h3 class="brand-name">KITCHEN AID</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (4).png">
+                            </div>
+                            <h3 class="brand-name">ZARA</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon.png">
+                            </div>
+                            <h3 class="brand-name">Amazon</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (1).png" alt="eBay" class="brand-logo">
+                            </div>
+                            <h3 class="brand-name">eBay</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (2).png">
+                            </div>
+                            <h3 class="brand-name">YOOX</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (3).png">
+                            </div>
+                            <h3 class="brand-name">KITCHEN AID</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (4).png">
+                            </div>
+                            <h3 class="brand-name">ZARA</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon.png">
+                            </div>
+                            <h3 class="brand-name">Amazon</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (1).png" alt="eBay" class="brand-logo">
+                            </div>
+                            <h3 class="brand-name">eBay</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (2).png">
+                            </div>
+                            <h3 class="brand-name">YOOX</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (3).png">
+                            </div>
+                            <h3 class="brand-name">KITCHEN AID</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon (4).png">
+                            </div>
+                            <h3 class="brand-name">ZARA</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="brand-card">
+                            <div class="brand-logo-wrapper">
+                                <img src="/images/store-catalog-images/Frame icon.png">
+                            </div>
+                            <h3 class="brand-name">Amazon</h3>
+                            <div class="brand-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Delivery:</span>
+                                    <span class="meta-value">up to 7 days</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Commission:</span>
+                                    <span class="meta-value">0.68%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+            </div>
+        </div>
+        <div class="sd">
+            <button class="shwm" type="button">Show more</button>
+        </div>
+        <div class="spacer"></div>
+        </div>
+        <div class="store-info-seo-block">
+            <div class="seo-column">
+                <p>Poland24 company delivers goods from any store, supplier, or manufacturer in the European Union countries that offer courier delivery of goods to Poland.</p>
+                <p>Poland24 company delivers goods from any store, supplier, or manufacturer in the European Union countries that offer courier delivery of goods to Poland. Poland24 company delivers goods from any store, supplier, or manufacturer in the European Union countries that offer courier delivery of goods to Poland.</p>
+            </div>
+            <div class="seo-column">
+                <p>Poland24 company delivers goods from any store, supplier, or manufacturer in the European Union countries that offer courier delivery of goods to Poland.</p>
+                <p>Poland24 company delivers goods from any store, supplier, or manufacturer in the European Union countries that offer courier delivery of goods to Poland.</p>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+    <section class="footer-section">
+    <div class="footer">
+        <div class="footer-content">
+            <div class="logo">
+                    <img src="/images/footer-images/Frame.png" alt="Logo" class="logo-img">
+                    <div class="logo-text">
+                        <img src="/images/footer-images/Frame 10292.png" alt="Poland24" class="logo-name">
+                        <p class="a2">FAST DELIVERY</p>
+                    </div>
+            </div>
+            <p class="copyright">Copyright © 2022 Poland24.com.ua. All rights reserved.</p>
+        </div>
+        <div class="footer-nav">
+            <h4>Navigation</h4>
+            <div class="nav-opt">
+                <div>
+                    <a href="#">About the company</a>
+                    <a href="#">Delivery from European stores</a>
+                    <a href="#">List of stores</a>
+                    <a href="#">Reviews</a>
+                </div>
+                <div>
+                    <a href="#">FAQ</a>
+                    <a href="#">The product is in stock in Ukraine.</a>
+                    <a href="#">Store rules</a>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <p>Our social net.:</p>
+            <img src="/images/footer-images/Frame 560.png">
+        </div>
+        <div class="contacts">
+            <h4>Contacts</h4>
+            <div class="contact-info">
+                <img src="/images/footer-images/location.png">
+                <p>Ukraine, Zhovkva, st. Embankment, 1</p>
+            </div>
+            <div class="contact-info">
+                <img src="/images/footer-images/time.png">
+                <p>Opening hours from 10:00 to 19:00</p>
+            </div>
+            <div class="contact-info">
+                <img src="/images/footer-images/Frame 520.png">
+                <p><strong>+38 (093) 496 58 00  </strong></p>
+            </div>
+            <div class="contact-info">
+                <img src="/images/footer-images/letter.png">
+                <p>poland24.com.ua</p>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
